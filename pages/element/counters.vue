@@ -1,64 +1,62 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <Header />
 
-        <Header />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Counters" />
 
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="Counters" />
+    <FunFact />
 
-        <FunFact />
+    <FunFactTwo />
 
-        <FunFactTwo />
+    <FunFactThree />
 
-        <FunFactThree />
+    <CtaThree />
 
-        <CtaThree />
+    <Footer />
 
-        <Footer />
-
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import FunFact from '@/components/FunFact';
-    import FunFactTwo from '@/components/FunFactTwo';
-    import FunFactThree from '@/components/FunFactThree';
-    import CtaThree from '@/components/CtaThree';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import Header from '@/components/Header'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import FunFact from '@/components/FunFact'
+import FunFactTwo from '@/components/FunFactTwo'
+import FunFactThree from '@/components/FunFactThree'
+import CtaThree from '@/components/CtaThree'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            FunFact,
-            FunFactTwo,
-            FunFactThree,
-            CtaThree,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    Header,
+    Breadcrumbs,
+    FunFact,
+    FunFactTwo,
+    FunFactThree,
+    CtaThree,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'Counters'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'Counters',
-                        active: true
-                    }
-                ]
-            }
+        {
+          text: 'Counters',
+          active: true
         }
-    };
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Counters'
+    }
+  }
+}
 </script>

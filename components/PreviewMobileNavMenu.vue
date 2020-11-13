@@ -1,97 +1,97 @@
 <template>
-    <div class="mobile-navigation">
-        <nav class="offcanvas-navigation" id="offcanvas-navigation">
-            <ul>
-                <li class="menu-item-has-children">
-                    <n-link to="/">
-                        <span>Elements</span>
-                    </n-link>
-                    <ul class="sub-menu">
-                        <li>
-                            <n-link to="/element/accordion">
-                                <span>Accordion</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/box-icon">
-                                <span>Box Icon</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/box-image">
-                                <span>Box Image</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/box-large-image">
-                                <span>Box Large Image</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/call-to-action">
-                                <span>Call To Action</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/counters">
-                                <span>Counters</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/gradation">
-                                <span>Gradation</span>
-                            </n-link>
-                        </li>
-                        <li>
-                            <n-link to="/element/teams">
-                                <span>Teams</span>
-                            </n-link>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="https://hasthemes.com/contact-us/" target="_blank"><span>Support</span></a>
-                </li>
-                <li>
-                    <a href="https://themeforest.net/item/mitech-it-solutions-html-template/24906742?ref=AslamHasib" target="_blank">Purchase</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+  <div class="mobile-navigation">
+    <nav id="offcanvas-navigation" class="offcanvas-navigation">
+      <ul>
+        <li class="menu-item-has-children">
+          <n-link to="/">
+            <span>Elements</span>
+          </n-link>
+          <ul class="sub-menu">
+            <li>
+              <n-link to="/element/accordion">
+                <span>Accordion</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/box-icon">
+                <span>Box Icon</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/box-image">
+                <span>Box Image</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/box-large-image">
+                <span>Box Large Image</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/call-to-action">
+                <span>Call To Action</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/counters">
+                <span>Counters</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/gradation">
+                <span>Gradation</span>
+              </n-link>
+            </li>
+            <li>
+              <n-link to="/element/teams">
+                <span>Teams</span>
+              </n-link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://hasthemes.com/contact-us/" target="_blank"><span>Support</span></a>
+        </li>
+        <li>
+          <a href="https://themeforest.net/item/mitech-it-solutions-html-template/24906742?ref=AslamHasib" target="_blank">Purchase</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </template>
 
 <script>
-    export default{
-        name: 'MobileNavMenu',
-        mounted() {
-            const offCanvasNav = document.querySelector('#offcanvas-navigation');
-            const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu');
-            const anchorLinks = offCanvasNav.querySelectorAll('a');
-        
-            for (let i = 0; i < offCanvasNavSubMenu.length; i++){
-                offCanvasNavSubMenu[i].insertAdjacentHTML("beforebegin", "<span class='menu-expand'><i></i></span>");
-            }
-        
-            const menuExpand = offCanvasNav.querySelectorAll('.menu-expand');
-            const numMenuExpand = menuExpand.length;
-        
-            for (let i = 0; i < numMenuExpand; i++) {
-                menuExpand[i].addEventListener("click", (e) => {sideMenuExpand(e)});
-            }
-        
-            for (let i = 0; i < anchorLinks.length; i++) {
-                anchorLinks[i].addEventListener("click", () => {closeMobileMenu()});
-            }
+export default {
+  name: 'MobileNavMenu',
+  mounted () {
+    const offCanvasNav = document.querySelector('#offcanvas-navigation')
+    const offCanvasNavSubMenu = offCanvasNav.querySelectorAll('.sub-menu')
+    const anchorLinks = offCanvasNav.querySelectorAll('a')
 
-            const sideMenuExpand = (e) => {
-                e.currentTarget.parentElement.classList.toggle('active');
-            }
-            const closeMobileMenu = () => {
-                const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu');
-                offcanvasMobileMenu.classList.remove('active');
-            }
-        }
-    };
+    for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
+      offCanvasNavSubMenu[i].insertAdjacentHTML('beforebegin', "<span class='menu-expand'><i></i></span>")
+    }
+
+    const menuExpand = offCanvasNav.querySelectorAll('.menu-expand')
+    const numMenuExpand = menuExpand.length
+
+    for (let i = 0; i < numMenuExpand; i++) {
+      menuExpand[i].addEventListener('click', (e) => { sideMenuExpand(e) })
+    }
+
+    for (let i = 0; i < anchorLinks.length; i++) {
+      anchorLinks[i].addEventListener('click', () => { closeMobileMenu() })
+    }
+
+    const sideMenuExpand = (e) => {
+      e.currentTarget.parentElement.classList.toggle('active')
+    }
+    const closeMobileMenu = () => {
+      const offcanvasMobileMenu = document.querySelector('#offcanvas-mobile-menu')
+      offcanvasMobileMenu.classList.remove('active')
+    }
+  }
+}
 </script>
 
 <style lang="scss">

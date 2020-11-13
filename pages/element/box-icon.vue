@@ -1,64 +1,62 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <Header />
 
-        <Header />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Box Icon" />
 
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="Box Icon" />
+    <ServiceStyleFive />
 
-        <ServiceStyleFive />
+    <ServiceStyleTwo class="bg-gray" />
 
-        <ServiceStyleTwo class="bg-gray" />
+    <FeatureGalleryFour />
 
-        <FeatureGalleryFour />
+    <CtaThree />
 
-        <CtaThree />
+    <Footer />
 
-        <Footer />
-
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import ServiceStyleFive from '@/components/sections/ServiceStyleFive';
-    import ServiceStyleTwo from '@/components/sections/ServiceStyleTwo';
-    import FeatureGalleryFour from '@/components/sections/FeatureGalleryFour';
-    import CtaThree from '@/components/CtaThree';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import Header from '@/components/Header'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import ServiceStyleFive from '@/components/sections/ServiceStyleFive'
+import ServiceStyleTwo from '@/components/sections/ServiceStyleTwo'
+import FeatureGalleryFour from '@/components/sections/FeatureGalleryFour'
+import CtaThree from '@/components/CtaThree'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            ServiceStyleFive,
-            ServiceStyleTwo,
-            FeatureGalleryFour,
-            CtaThree,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    Header,
+    Breadcrumbs,
+    ServiceStyleFive,
+    ServiceStyleTwo,
+    FeatureGalleryFour,
+    CtaThree,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'Box Icon'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'Box Icon',
-                        active: true
-                    }
-                ]
-            }
+        {
+          text: 'Box Icon',
+          active: true
         }
-    };
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Box Icon'
+    }
+  }
+}
 </script>

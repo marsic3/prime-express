@@ -1,60 +1,58 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <Header />
 
-        <Header />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Team Members" />
 
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="Team Members" />
+    <TeamOne />
 
-        <TeamOne />
+    <TeamTwo class="bg-gray" />
 
-        <TeamTwo class="bg-gray" />
+    <CtaThree />
 
-        <CtaThree />
+    <Footer />
 
-        <Footer />
-
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import TeamOne from '@/components/sections/TeamOne';
-    import TeamTwo from '@/components/sections/TeamTwo';
-    import CtaThree from '@/components/CtaThree';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import Header from '@/components/Header'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import TeamOne from '@/components/sections/TeamOne'
+import TeamTwo from '@/components/sections/TeamTwo'
+import CtaThree from '@/components/CtaThree'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            TeamOne,
-            TeamTwo,
-            CtaThree,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    Header,
+    Breadcrumbs,
+    TeamOne,
+    TeamTwo,
+    CtaThree,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'Team Members'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'Team Members',
-                        active: true
-                    }
-                ]
-            }
+        {
+          text: 'Team Members',
+          active: true
         }
-    };
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Team Members'
+    }
+  }
+}
 </script>

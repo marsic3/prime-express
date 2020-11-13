@@ -1,56 +1,54 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <Header />
 
-        <Header />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Call To Action" />
 
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="Call To Action" />
+    <CtaThree />
 
-        <CtaThree />
+    <CtaOne />
 
-        <CtaOne />
+    <Footer />
 
-        <Footer />
-
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import CtaOne from '@/components/CtaOne';
-    import CtaThree from '@/components/CtaThree';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import Header from '@/components/Header'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import CtaOne from '@/components/CtaOne'
+import CtaThree from '@/components/CtaThree'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            CtaOne,
-            CtaThree,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    Header,
+    Breadcrumbs,
+    CtaOne,
+    CtaThree,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'Call To Action'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'Call To Action',
-                        active: true
-                    }
-                ]
-            }
+        {
+          text: 'Call To Action',
+          active: true
         }
-    };
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Call To Action'
+    }
+  }
+}
 </script>

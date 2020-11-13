@@ -1,49 +1,49 @@
 <template>
-    <div class="offcanvas-menu" id="offcanvas-menu">
-        <div class="offcanvas-menu__inner">
-            <div class="offcanvas-menu__header">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-8">
-                            <div class="logo">
-                                <n-link to="/">
-                                    <img src="/images/logo/logo-dark.png" alt="logo">
-                                </n-link>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-4">
-                            <div class="text-right">
-                                <span class="mobile-navigation-close-icon" @click="mobiletoggleClass('removeClass', 'active')"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <div id="offcanvas-menu" class="offcanvas-menu">
+    <div class="offcanvas-menu__inner">
+      <div class="offcanvas-menu__header">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-8">
+              <div class="logo">
+                <n-link to="/">
+                  <img src="/images/logo/logo-dark.png" alt="logo">
+                </n-link>
+              </div>
             </div>
-            <PreviewMobileNavMenu />
+            <div class="col-md-6 col-4">
+              <div class="text-right">
+                <span class="mobile-navigation-close-icon" @click="mobiletoggleClass('removeClass', 'active')" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <PreviewMobileNavMenu />
     </div>
+  </div>
 </template>
 
 <script>
 
-    import PreviewMobileNavMenu from '../components/PreviewMobileNavMenu'
+import PreviewMobileNavMenu from '../components/PreviewMobileNavMenu'
 
-    export default {
-        components: {
-            PreviewMobileNavMenu
-        },
-        methods: {
-            // offcanvas menu close
-            mobiletoggleClass(addRemoveClass, className) {
-                const el = document.querySelector('#offcanvas-menu');
-                if (addRemoveClass === 'addClass') {
-                    el.classList.add(className);
-                } else {
-                    el.classList.remove(className);
-                }
-            }
-        }
-    };
+export default {
+  components: {
+    PreviewMobileNavMenu
+  },
+  methods: {
+    // offcanvas menu close
+    mobiletoggleClass (addRemoveClass, className) {
+      const el = document.querySelector('#offcanvas-menu')
+      if (addRemoveClass === 'addClass') {
+        el.classList.add(className)
+      } else {
+        el.classList.remove(className)
+      }
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -54,7 +54,7 @@
             width: 160px;
         }
     }
-    
+
     .offcanvas-menu {
         position: fixed;
         left: 0;
@@ -67,7 +67,7 @@
         background: rgba(0, 0, 0, 0.7);
         visibility: hidden;
         opacity: 0;
-    
+
         &__inner {
             transform: translateX(-100%);
             width: 400px;

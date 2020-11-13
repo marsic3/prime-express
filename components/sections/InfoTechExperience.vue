@@ -35,14 +35,11 @@
 import data from '../../data/service.json'
 import about from '../../data/about.json'
 
-import SectionTitle from '@/components/SectionTitle'
 import AboutCompany from '@/components/AboutCompany'
-import FeatureItem from '@/components/FeatureItem'
+
 export default {
   components: {
-    SectionTitle,
-    AboutCompany,
-    FeatureItem
+    AboutCompany
   },
   data () {
     return {

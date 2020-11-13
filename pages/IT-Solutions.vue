@@ -1,58 +1,56 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <Header />
 
-        <Header />
-        
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="IT Solutions" />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="IT Solutions" />
 
-        <ServiceITSolution />
+    <ServiceITSolution />
 
-        <CtaContactTwo />
+    <CtaContactTwo />
 
-        <Footer />
+    <Footer />
 
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import ServiceITSolution from '@/components/sections/ServiceITSolution';
-    import CtaContactTwo from '@/components/CtaContactTwo';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import Header from '@/components/Header'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import ServiceITSolution from '@/components/sections/ServiceITSolution'
+import CtaContactTwo from '@/components/CtaContactTwo'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            ServiceITSolution,
-            CtaContactTwo,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    Header,
+    Breadcrumbs,
+    ServiceITSolution,
+    CtaContactTwo,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'IT Solution'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'IT-Solutions',
-                        active: true
-                    }
-                ]
-            }
-        },
-    };
+        {
+          text: 'IT-Solutions',
+          active: true
+        }
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'IT Solution'
+    }
+  }
+}
 </script>
 
 <style lang="scss">

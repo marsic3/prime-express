@@ -1,64 +1,62 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <HeaderProcessing />
 
-        <HeaderProcessing />
+    <HeroProcessing />
 
-        <HeroProcessing />
+    <AccordionWrapper />
 
-        <AccordionWrapper />
+    <ServiceStyleThree />
 
-        <ServiceStyleThree />
+    <FunFactThree />
 
-        <FunFactThree />
+    <CtaTwo />
 
-        <CtaTwo />
+    <GalleryOne />
 
-        <GalleryOne />
+    <TestimonialTwo />
 
-        <TestimonialTwo />
+    <BrandLogoCarousel />
 
-        <BrandLogoCarousel />
+    <CtaContactTwo />
 
-        <CtaContactTwo />
+    <Footer />
 
-        <Footer />
+    <OffCanvasMobileMenu />
 
-        <OffCanvasMobileMenu />
-
-        <SearchOverlay />
-
-    </div>
+    <SearchOverlay />
+  </div>
 </template>
 
 <script>
-    import HeaderProcessing from '@/components/HeaderProcessing';
-    import HeroProcessing from '@/components/HeroProcessing';
-    import AccordionWrapper from '@/components/sections/AccordionWrapper';
-    import ServiceStyleThree from '@/components/sections/ServiceStyleThree';
-    import FunFactThree from '@/components/FunFactThree';
-    import CtaTwo from '@/components/CtaTwo';
-    import GalleryOne from '@/components/sections/GalleryOne';
-    import TestimonialTwo from '@/components/sections/TestimonialTwo';
-    import BrandLogoCarousel from '@/components/BrandLogoCarousel';
-    import CtaContactTwo from '@/components/CtaContactTwo';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
-    import SearchOverlay from '@/components/SearchOverlay';
-    export default {
-        components: {
-            HeaderProcessing,
-            HeroProcessing,
-            AccordionWrapper,
-            ServiceStyleThree,
-            FunFactThree,
-            CtaTwo,
-            GalleryOne,
-            TestimonialTwo,
-            BrandLogoCarousel,
-            CtaContactTwo,
-            Footer,
-            OffCanvasMobileMenu,
-            SearchOverlay
-        },
-    };
+import HeaderProcessing from '@/components/HeaderProcessing'
+import HeroProcessing from '@/components/HeroProcessing'
+import AccordionWrapper from '@/components/sections/AccordionWrapper'
+import ServiceStyleThree from '@/components/sections/ServiceStyleThree'
+import FunFactThree from '@/components/FunFactThree'
+import CtaTwo from '@/components/CtaTwo'
+import GalleryOne from '@/components/sections/GalleryOne'
+import TestimonialTwo from '@/components/sections/TestimonialTwo'
+import BrandLogoCarousel from '@/components/BrandLogoCarousel'
+import CtaContactTwo from '@/components/CtaContactTwo'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
+import SearchOverlay from '@/components/SearchOverlay'
+export default {
+  components: {
+    HeaderProcessing,
+    HeroProcessing,
+    AccordionWrapper,
+    ServiceStyleThree,
+    FunFactThree,
+    CtaTwo,
+    GalleryOne,
+    TestimonialTwo,
+    BrandLogoCarousel,
+    CtaContactTwo,
+    Footer,
+    OffCanvasMobileMenu,
+    SearchOverlay
+  }
+}
 </script>

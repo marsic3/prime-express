@@ -1,14 +1,14 @@
 <template>
-    <div>
-        <nuxt />
-    </div>
+  <div>
+    <nuxt />
+  </div>
 </template>
 
 <script>
-    export default {
-        components: {
-        }
-    }
+export default {
+  components: {
+  }
+}
 </script>
 
 <style>
