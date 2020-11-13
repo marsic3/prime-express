@@ -4,6 +4,7 @@ export default {
   },
 
   buildDir: 'dist',
+  target: 'static',
 
   /*
     ** Headers of the page
