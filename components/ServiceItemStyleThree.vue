@@ -8,7 +8,7 @@
             </div>
             <div class="content">
                 <h5 class="heading">{{ service.heading }}</h5>
-                <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
+                <div class="text">At Prime Express, INC, we have a holistic and integrated approach towards core modernization to experience technological evolution.
                 </div>
                 <div class="box-images-arrow">
                     <span class="button-text">Discover now</span>

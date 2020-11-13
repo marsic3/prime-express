@@ -42,7 +42,7 @@
                                 <b-collapse id="accordion-2" visible accordion="my-accordion">
                                     <b-card-body>
                                         <b-card-text>
-                                            Mitech takes into consideration every little detail to make sure the system run smoothly and responsively. Mitech employs a new technique called Minified Technology for securing customers' database & building up highly confidential firewalls.
+                                            Prime Express, INC takes into consideration every little detail to make sure the system run smoothly and responsively. Prime Express, INC employs a new technique called Minified Technology for securing customers' database & building up highly confidential firewalls.
                                         </b-card-text>
                                     </b-card-body>
                                 </b-collapse>

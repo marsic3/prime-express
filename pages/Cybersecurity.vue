@@ -36,7 +36,7 @@
             <div class="col-lg-5 offset-lg-1">
               <div class="cybersecurity-about-text">
                 <div class="text">
-                  Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
+                  Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
                 </div>
                 <div class="button-text">
                   <n-link to="/" class="btn-text">
@@ -68,7 +68,7 @@
                         Quality Assurance System
                       </h5>
                       <div class="text">
-                        At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
+                        At Prime Express, INC, we have a holistic and integrated approach towards core modernization to experience technological evolution.
                       </div>
                       <div class="box-images-arrow">
                         <span class="button-text">Discover now</span>
@@ -118,7 +118,7 @@
                         Info Security Management
                       </h5>
                       <div class="text">
-                        At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
+                        At Prime Express, INC, we have a holistic and integrated approach towards core modernization to experience technological evolution.
                       </div>
                       <div class="box-images-arrow">
                         <span class="button-text">Discover now</span>
@@ -194,7 +194,7 @@ export default {
   },
   head () {
     return {
-      title: 'Mitech || Appointment'
+      title: 'Prime Express, INC || Appointment'
     }
   }
 }

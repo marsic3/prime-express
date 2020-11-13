@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-lg-7 offset-lg-1">
                             <div class="conact-us-wrap-one managed-it">
-                                <h5 class="heading ">Mitech specializes in <span class="text-color-primary"> technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc. </h5>
+                                <h5 class="heading ">Prime Express, INC specializes in <span class="text-color-primary"> technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc. </h5>
 
                                 <div class="sub-heading">We’re available for 8 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.
                                 </div>
@@ -95,7 +95,7 @@
                                                         <i class="fal fa-shield-check"></i>
                                                     </div>
                                                     <h5 class="heading">
-                                                        Mitech Management Systems
+                                                        Prime Express, INC Management Systems
                                                     </h5>
                                                 </div>
                                                 <div class="content">
@@ -156,7 +156,7 @@
                                                     </h5>
                                                 </div>
                                                 <div class="content">
-                                                    <div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.</div>
+                                                    <div class="text">At Prime Express, INC, we have a holistic and integrated approach towards core modernization to experience technological evolution.</div>
                                                 </div>
                                             </div>
                                         </div>

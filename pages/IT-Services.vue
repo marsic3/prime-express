@@ -1,56 +1,54 @@
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <HeaderCybersecurity />
 
-        <Header />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="IT Services" />
 
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="IT Services" />
+    <ServiceIT />
 
-        <ServiceIT />
+    <ContactUsThree />
 
-        <ContactUsThree />
+    <Footer />
 
-        <Footer />
-
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import ServiceIT from '@/components/ServiceIT';
-    import ContactUsThree from '@/components/sections/ContactUsThree';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import HeaderCybersecurity from '@/components/HeaderCybersecurity'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import ServiceIT from '@/components/ServiceIT'
+import ContactUsThree from '@/components/sections/ContactUsThree'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        components: {
-            Header,
-            Breadcrumbs,
-            ServiceIT,
-            ContactUsThree,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  components: {
+    HeaderCybersecurity,
+    Breadcrumbs,
+    ServiceIT,
+    ContactUsThree,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'IT Services'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'IT-Services',
-                        active: true
-                    }
-                ]
-            }
-        },
-    };
+        {
+          text: 'IT-Services',
+          active: true
+        }
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'IT Services'
+    }
+  }
+}
 </script>

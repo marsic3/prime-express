@@ -1,62 +1,60 @@
 
 <template>
-    <div class="main-container">
+  <div class="main-container">
+    <HeaderCybersecurity />
 
-        <Header />
-        
-        <Breadcrumbs :items="breadcrumbNavigation" breadcrumbTitle="Contact Us" />
+    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Contact Us" />
 
-        <ContactUsFour />
+    <ContactUsFour />
 
-        <ContactUsInfo />
+    <ContactUsInfo />
 
-        <CtaOne />
+    <CtaOne />
 
-        <Footer />
+    <Footer />
 
-        <OffCanvasMobileMenu />
-
-    </div>
+    <OffCanvasMobileMenu />
+  </div>
 </template>
 
 <script>
-    import Header from '@/components/Header';
-    import Breadcrumbs from '@/components/Breadcrumbs';
-    import ContactUsFour from '@/components/sections/ContactUsFour';
-    import ContactUsInfo from '@/components/ContactUsInfo';
-    import CtaOne from '@/components/CtaOne';
-    import Footer from '@/components/Footer';
-    import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu';
+import HeaderCybersecurity from '@/components/HeaderCybersecurity'
+import Breadcrumbs from '@/components/Breadcrumbs'
+import ContactUsFour from '@/components/sections/ContactUsFour'
+import ContactUsInfo from '@/components/ContactUsInfo'
+import CtaOne from '@/components/CtaOne'
+import Footer from '@/components/Footer'
+import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
-    export default {
-        name: 'contact',
-        components: {
-            Header,
-            Breadcrumbs,
-            ContactUsFour,
-            ContactUsInfo,
-            CtaOne,
-            Footer,
-            OffCanvasMobileMenu
+export default {
+  name: 'Contact',
+  components: {
+    HeaderCybersecurity,
+    Breadcrumbs,
+    ContactUsFour,
+    ContactUsInfo,
+    CtaOne,
+    Footer,
+    OffCanvasMobileMenu
+  },
+  data () {
+    return {
+      breadcrumbNavigation: [
+        {
+          text: 'Home',
+          to: '/'
         },
-        head() {
-            return {
-                title: 'Contact Us'
-            }
-        },
-        data () {
-            return {
-                breadcrumbNavigation: [
-                    {
-                        text: 'Home',
-                        to: "/"
-                    },
-                    {
-                        text: 'Contact Us',
-                        active: true
-                    }
-                ]
-            }
+        {
+          text: 'Contact Us',
+          active: true
         }
-    };
+      ]
+    }
+  },
+  head () {
+    return {
+      title: 'Contact Us'
+    }
+  }
+}
 </script>

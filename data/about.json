@@ -2,7 +2,7 @@
     "aboutCompany": {
         "sectionTitle": "We’ve been thriving in <span>38 years</span>",
         "sectionSubTitle": "Our company",
-        "desc": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
+        "desc": "Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
     },
     "aboutCompanyTwo": {
         "sectionTitle": "We run all kinds of IT services that <br> vow your <span> success</span>",
@@ -10,7 +10,7 @@
         "heading": "Years’ Experience in IT",
         "headingMarkText": "38",
         "subHeading": "More About Our Success Stories",
-        "desc": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.",
+        "desc": "Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.",
         "underHeading": "Challenges are just opportunities in disguise.",
         "linkText": "Take the challenge!"
     },
@@ -48,7 +48,7 @@
             },
             {
                 "title": "Infrastructure Integration Technology",
-                "desc": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+                "desc": "At Prime Express, INC, we have a holistic and integrated approach towards core modernization to experience technological evolution."
             },
             {
                 "title": "Highly Professional Staffs",
@@ -71,7 +71,7 @@
         },
         {
             "no": "03",
-            "title": "What are the best of Mitech?"
+            "title": "What are the best of Prime Express, INC?"
         }
     ]
 }

@@ -14,7 +14,7 @@
                         <div class="section-title-wrap">
                             <h6 class="section-sub-title mb-20">Our company</h6>
                             <h3 class="heading">We’ve been triumphing <br> all these <span> 38 years.</span> <br> Sacrifices are made up <br> with success.</h3>
-                            <p class="text mt-30">Mitech takes into consideration every little detail to make sure the system run smoothly and responsively. Mitech employs a new technique called Minified Technology for securing customers’ database & building up highly confidential firewalls.</p>
+                            <p class="text mt-30">Prime Express, INC takes into consideration every little detail to make sure the system run smoothly and responsively. Prime Express, INC employs a new technique called Minified Technology for securing customers’ database & building up highly confidential firewalls.</p>
 
                             <div class="inner-button-box section-space--mt_60">
                                 <n-link to="/about" class="ht-btn ht-btn-md">Find out more</n-link>

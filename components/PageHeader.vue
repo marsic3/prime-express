@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-lg-8 ml-auto mr-auto">
                     <div class="about-banner-content text-center">
-                        <h1 class="mb-15 text-white">About Mitech</h1>
-                        <h5 class="font-weight--normal text-white">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.</h5>
+                        <h1 class="mb-15 text-white">About Prime Express, INC</h1>
+                        <h5 class="font-weight--normal text-white">Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.</h5>
                     </div>
                 </div>
             </div>
