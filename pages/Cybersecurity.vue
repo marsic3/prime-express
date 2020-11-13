@@ -147,8 +147,6 @@
 
     <CaseStudiesSectionTwo />
 
-    <PricingOne />
-
     <BlogStyleOne />
 
     <QualifiedMethod />
@@ -169,7 +167,6 @@ import HeroCybersecurity from '@/components/HeroCybersecurity'
 import ServiceStyleTwo from '@/components/sections/ServiceStyleTwo'
 import FunFactTwo from '@/components/FunFactTwo'
 import CaseStudiesSectionTwo from '@/components/sections/CaseStudiesSectionTwo'
-import PricingOne from '@/components/sections/PricingOne'
 import BlogStyleOne from '@/components/sections/BlogStyleOne'
 import QualifiedMethod from '@/components/QualifiedMethod'
 import ContactUsFour from '@/components/sections/ContactUsFour'
@@ -184,7 +181,6 @@ export default {
     ServiceStyleTwo,
     FunFactTwo,
     CaseStudiesSectionTwo,
-    PricingOne,
     BlogStyleOne,
     QualifiedMethod,
     ContactUsFour,

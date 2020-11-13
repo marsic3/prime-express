@@ -16,8 +16,6 @@
 
     <CaseStudiesSectionTwo />
 
-    <PricingOne />
-
     <BlogStyleTwo />
 
     <ContactUsTwo />
@@ -41,7 +39,6 @@ import ServiceStyleTwo from '@/components/sections/ServiceStyleTwo'
 import FourSteps from '@/components/sections/FourSteps'
 import CtaThree from '@/components/CtaThree'
 import CaseStudiesSectionTwo from '@/components/sections/CaseStudiesSectionTwo'
-import PricingOne from '@/components/sections/PricingOne'
 import ContactUsTwo from '@/components/sections/ContactUsTwo'
 import BlogStyleTwo from '@/components/sections/BlogStyleTwo'
 import BrandLogoCarousel from '@/components/BrandLogoCarousel'
@@ -60,7 +57,6 @@ export default {
     FourSteps,
     CtaThree,
     CaseStudiesSectionTwo,
-    PricingOne,
     BlogStyleTwo,
     ContactUsTwo,
     BrandLogoCarousel,
