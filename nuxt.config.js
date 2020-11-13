@@ -3,6 +3,8 @@ export default {
     fallback: true
   },
 
+  buildDir: 'dist',
+
   /*
     ** Headers of the page
     */
