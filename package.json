@@ -1,8 +1,8 @@
 {
-    "name": "Prime Express, INC",
+    "name": "PrimeExpress",
     "version": "1.0.0",
-    "description": "Vue.JS Technology & Blog Template",
-    "author": "uzzal",
+    "description": "Trucking company",
+    "author": "marsic",
     "private": true,
     "scripts": {
         "dev": "nuxt",
