@@ -190,7 +190,7 @@ export default {
   },
   head () {
     return {
-      title: 'Prime Express, INC || Appointment'
+      title: 'Prime Express, INC'
     }
   }
 }
