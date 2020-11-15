@@ -3,13 +3,7 @@
   <div class="main-container">
     <HeaderCybersecurity />
 
-    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="Contact Us" />
-
-    <ContactUsFour />
-
-    <ContactUsInfo />
-
-    <CtaOne />
+    <ContactUsTwo />
 
     <Footer />
 
@@ -19,10 +13,7 @@
 
 <script>
 import HeaderCybersecurity from '@/components/HeaderCybersecurity'
-import Breadcrumbs from '@/components/Breadcrumbs'
-import ContactUsFour from '@/components/sections/ContactUsFour'
-import ContactUsInfo from '@/components/ContactUsInfo'
-import CtaOne from '@/components/CtaOne'
+import ContactUsTwo from '@/components/sections/ContactUsTwo'
 import Footer from '@/components/Footer'
 import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
@@ -30,10 +21,7 @@ export default {
   name: 'Contact',
   components: {
     HeaderCybersecurity,
-    Breadcrumbs,
-    ContactUsFour,
-    ContactUsInfo,
-    CtaOne,
+    ContactUsTwo,
     Footer,
     OffCanvasMobileMenu
   },

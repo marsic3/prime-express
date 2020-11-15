@@ -7,7 +7,7 @@
             <div class="col-md-6 col-8">
               <div class="logo">
                 <n-link to="/">
-                  <img src="/images/logo/logo-dark.png" alt="logo">
+                  <img src="../assets/img/logo4.svg" alt="logo">
                 </n-link>
               </div>
             </div>

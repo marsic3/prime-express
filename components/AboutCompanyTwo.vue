@@ -33,52 +33,14 @@
                 {{ data.aboutCompanyTwo.desc }}
               </div>
               <div class="button-text">
-                <n-link to="/" class="btn-text">
-                  Discover now
+                <n-link to="/contact" class="btn-text">
+                  Join us
                   <span class="button-icon ml-1">
                     <i class="far fa-long-arrow-right" />
                   </span>
                 </n-link>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <div class="feature-images__six">
-            <div class="row">
-              <div v-for="about in data.aboutItems" :key="about.id" class="col-lg-4 col-md-6 wow move-up">
-                <div class="ht-box-images style-06">
-                  <div class="image-box-wrap">
-                    <div class="box-image">
-                      <div class="default-image">
-                        <img class="img-fulid" :src="about.icon" alt="icon">
-                      </div>
-                    </div>
-                    <div class="content">
-                      <h5 class="heading">
-                        {{ about.heading }}
-                      </h5>
-                      <div class="text">
-                        {{ about.desc }}
-                      </div>
-                      <n-link to="/" class="box-images-arrow">
-                        <span class="button-text">Discover now</span>
-                        <i class="far fa-long-arrow-right" />
-                      </n-link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="section-under-heading text-center section-space--mt_60">
-            {{ data.aboutCompanyTwo.underHeading }}
-            <n-link to="/">
-              {{ data.aboutCompanyTwo.linkText }}
-            </n-link>
           </div>
         </div>
       </div>

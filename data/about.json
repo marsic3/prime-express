@@ -29,6 +29,21 @@
             "icon": "/images/icons/mitech-box-image-style-01-image-06-100x108.png",
             "heading": "Need a hand?",
             "desc": "Our support team is available 24/7 a day, 7 days a week and can get ready for solving any of your situational rising problems."
+        },
+         {
+            "icon": "/images/icons/mitech-box-image-style-01-image-02-100x108.png",
+            "heading": "What we can do?",
+            "desc": "We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
+        },
+        {
+            "icon": "/images/icons/mitech-box-image-style-01-image-01-100x108.png",
+            "heading": "Become our partners?",
+            "desc": "Our preventive and progressive approach will help you take the lead while addressing possible threats in managing data."
+        },
+        {
+            "icon": "/images/icons/mitech-box-image-style-01-image-06-100x108.png",
+            "heading": "Need a hand?",
+            "desc": "Our support team is available 24/7 a day, 7 days a week and can get ready for solving any of your situational rising problems."
         }
     ],
     "aboutDelivery": {

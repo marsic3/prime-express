@@ -39,7 +39,8 @@ export default {
     */
   plugins: [
     '~/plugins/vue-awesome-swiper.js',
-    '~/plugins/vuejs-paginate.js'
+    '~/plugins/vuejs-paginate.js',
+    '~/plugins/firebase.js'
   ],
   /*
     ** Nuxt.js dev-modules

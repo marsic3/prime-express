@@ -1,5 +1,5 @@
 <template>
-  <div class="about-banner-wrap banner-space about-us-bg bg-cover" :style="{ backgroundImage: `url('/images/bg/contact-us-01-hero-bg.jpg')` }">
+  <div class="about-banner-wrap banner-space about-us-bg bg-cover">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 ml-auto mr-auto">
@@ -22,3 +22,18 @@ export default {
   props: ['title', 'subTitle', 'bgImg']
 }
 </script>
+<style lang="scss" scoped>
+
+.about-us-bg {
+  background: no-repeat center center fixed;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../assets/img/6.jpg');
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+</style>

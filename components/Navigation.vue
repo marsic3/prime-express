@@ -6,18 +6,18 @@
       </n-link>
     </li>
     <li>
-      <n-link to="/it-services">
+      <n-link to="/services">
         <span>Services</span>
       </n-link>
     </li>
     <li>
       <n-link to="/about">
-        <span>About Us</span>
+        <span>Company</span>
       </n-link>
     </li>
     <li>
       <n-link to="/contact">
-        <span>Contact Us</span>
+        <span>Contact</span>
       </n-link>
     </li>
   </ul>

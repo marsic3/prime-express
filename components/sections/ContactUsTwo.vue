@@ -52,27 +52,39 @@
         </div>
 
         <div class="col-lg-7 ml-auto">
-          <div class="contact-form-service-wrap">
+          <div v-if="!toggle" class="contact-form-service-wrap">
             <div class="contact-title text-center section-space--mb_40">
               <h3 class="mb-10">
-                Need a hand?
+                Start driving with us!
               </h3>
               <p class="text">
-                Reach out to the world’s most reliable IT services.
+                Truck with the best.
               </p>
             </div>
-            <form id="contact-form">
+            <div id="contact-form">
               <div class="contact-form__two">
                 <div class="contact-input">
                   <div class="contact-inner">
-                    <input name="con_name" type="text" placeholder="Name *">
+                    <input v-model="name" name="con_name" type="text" placeholder="Name *">
                   </div>
                   <div class="contact-inner">
-                    <input name="con_email" type="email" placeholder="Email *">
+                    <input v-model="email" name="con_email" type="email" placeholder="Email *">
+                  </div>
+                  <div class="contact-inner">
+                    <input v-model="phone" name="con_phone" type="text" placeholder="Phone Number *">
+                  </div>
+                  <div class="contact-inner">
+                    <input v-model="zip" name="con_zip" type="number" placeholder="Zip code *">
                   </div>
                 </div>
                 <div class="contact-select">
-                  <div class="form-item contact-inner">
+                  <div class="contact-inner">
+                    <input v-model="exp" name="con_exp" type="number" placeholder="Years of experience">
+                  </div>
+                  <div class="contact-inner">
+                    <input v-model="companies" name="con_comapnies" type="text" placeholder="Previous companies">
+                  </div>
+                  <!-- <div class="form-item contact-inner">
                     <span class="inquiry">
                       <select name="inquiry" class="select-item">
                         <option value="Your inquiry about">Your inquiry about</option>
@@ -82,22 +94,83 @@
                         <option value="Software Licencing">Software Licencing</option>
                       </select>
                     </span>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="contact-inner contact-message">
-                  <textarea name="con_message" placeholder="Please describe what you need." />
+                  <textarea v-model="record" name="con_record" placeholder="Driving record" />
                 </div>
                 <div class="submit-btn text-center">
-                  <button class="ht-btn ht-btn-md" type="submit">
-                    Send message
+                  <button class="ht-btn ht-btn-md" @click="send">
+                    Submit
                   </button>
                   <p class="form-messege" />
                 </div>
               </div>
-            </form>
+            </div>
+          </div>
+          <div v-else class="contact-form-service-wrap">
+            <div class="contact-title text-center section-space--mb_40">
+              <h3 class="mb-10">
+                Thanks for applying!
+              </h3>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+import { fireDb } from '~/plugins/firebase.js'
+
+export default {
+  name: 'ContactUsTwo',
+  metaInfo: {
+    title: 'Email Capture'
+  },
+  components: {},
+  props: {
+  },
+  data () {
+    return {
+      toggle: false,
+      name: '',
+      email: '',
+      phone: '',
+      zip: '',
+      exp: '',
+      record: '',
+      companies: ''
+    }
+  },
+  created () {
+  },
+  mounted () {
+  },
+  methods: {
+    send () {
+      const applicant = {
+        date: new Date(),
+        name: this.name,
+        email: this.email,
+        phone: this.phone,
+        zip: this.zip,
+        exp: this.exp,
+        record: this.record,
+        companies: this.companies
+      }
+
+      fireDb.collection('applications').add(applicant)
+        .then((docRef) => {
+          this.toggle = true
+        })
+        .catch((error) => {
+          console.error('Error adding document: ', error)
+        })
+    }
+  }
+}
+</script>
+<style lang="scss" scoped>
+
+</style>

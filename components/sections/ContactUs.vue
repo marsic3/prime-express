@@ -5,10 +5,10 @@
         <div class="col-lg-12">
           <div class="contact-title section-space--mb_50">
             <h3 class="mb-20">
-              Need a hand?
+              Join us!
             </h3>
             <p class="sub-title">
-              Reach out to the world’s most reliable IT services.
+              Truck with the best
             </p>
           </div>
         </div>

@@ -1,22 +1,17 @@
 <template>
   <div class="main-container">
-    <Header />
-
-    <Breadcrumbs :items="breadcrumbNavigation" breadcrumb-title="IT Solutions" />
-
+    <HeaderCybersecurity />
+    <PageHeaderTwo />
     <ServiceITSolution />
-
     <CtaContactTwo />
-
     <Footer />
-
     <OffCanvasMobileMenu />
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
-import Breadcrumbs from '@/components/Breadcrumbs'
+import HeaderCybersecurity from '@/components/HeaderCybersecurity'
+import PageHeaderTwo from '@/components/PageHeaderTwo'
 import ServiceITSolution from '@/components/sections/ServiceITSolution'
 import CtaContactTwo from '@/components/CtaContactTwo'
 import Footer from '@/components/Footer'
@@ -24,8 +19,8 @@ import OffCanvasMobileMenu from '@/components/OffCanvasMobileMenu'
 
 export default {
   components: {
-    Header,
-    Breadcrumbs,
+    HeaderCybersecurity,
+    PageHeaderTwo,
     ServiceITSolution,
     CtaContactTwo,
     Footer,
@@ -39,7 +34,7 @@ export default {
           to: '/'
         },
         {
-          text: 'IT-Solutions',
+          text: 'Services',
           active: true
         }
       ]
@@ -47,7 +42,7 @@ export default {
   },
   head () {
     return {
-      title: 'IT Solution'
+      title: 'Services'
     }
   }
 }
