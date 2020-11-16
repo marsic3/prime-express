@@ -1,17 +1,17 @@
 {
     "serviceOne": {
-        "sectionTitle": "For your very specific industry, <br> we have <span> highly-tailored IT solutions.</span>",
+        "sectionTitle": "We have everything you <br> ever wanted <span> in one place.</span>",
         "sectionSubTitle": "our services",
-        "underHeading": "Challenges are just opportunities in disguise. "
+        "underHeading": "The perfect trucking job "
     },
     "serviceStyleTwo": {
         "sectionTitle": "Services We Deliver<br> we provide <span> truly prominent IT solutions.</span>",
         "sectionSubTitle": "Industries we Serve"
     },
     "serviceFour": {
-        "sectionTitle": "For your very specific industry, <br> we have <span> highly-tailored IT solutions.</span>",
+        "sectionTitle": "We have everything you <br> ever wanted <span> in one place.</span>",
         "sectionSubTitle": "our services",
-        "underHeading": "Challenges are just opportunities in disguise. "
+        "underHeading": "The perfect trucking job "
     },
     "fourSteps": {
         "sectionTitle": "How it helps <span>your <br> business succeed</span>",
@@ -43,7 +43,7 @@
     "featureSectionTitle": "How we claim to <span> excel?</span>",
     "featureSectionSubTitle": "Hire us, why not?",
     
-    "itSolutionTitle": "For your very specific industry, </br> we have <span>highly-tailored IT solutions.</span>",
+    "itSolutionTitle": "We have everything you <br> ever wanted <span> in one place.</span>",
     "itSolutionSubTitle": "our services",
     "services": [
         {
@@ -184,39 +184,39 @@
 
         {
             "id": 24,
-            "heading": "Prime Express, INC Management Systems",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/blog-01-330x330.jpg"
+            "heading": "Transport Refrigeration",
+            "desc": "There is always a demand for fresh products and the reefers that transport them. Freight is protected from weather conditions, theft, spoilage and damage.",
+            "image": "2.jpg"
         },
         {
             "id": 25,
-            "heading": "Efficient Database Security",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/mitech-home-infotechno-box-large-image-02-330x330.jpg"
+            "heading": "Regional & OTR",
+            "desc": "We have open positions for both regional and over the road",
+            "image": "3.jpg"
         },
         {
             "id": 26,
-            "heading": "Reliable Multi-function Technology",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/mitech-home-infotechno-box-large-image-03-330x330.jpg"
+            "heading": "Team & Solo",
+            "desc": "We have otions for team drivers or solo.",
+            "image": "4.jpg"
         },
         {
             "id": 27,
-            "heading": "Prime Express, INC Management Systems",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/box-image-04-330x330.jpg"
+            "heading": "Flexibility",
+            "desc": "You have an appointment you have to keep? Your dispatchers can keep track of that.",
+            "image": "5.jpg"
         },
         {
             "id": 28,
-            "heading": "Efficient Database Security",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/box-image-05-330x330.jpg"
+            "heading": "Experienced Safety Team",
+            "desc": "You can rely on our safety team to give you an advice on how to get back on the road most efficiently.",
+            "image": "11.jpg"
         },
         {
             "id": 29,
-            "heading": "Reliable Multi-function Technology",
-            "desc": "Our technical experts have a flair for developing <strong>clean-coded websites</strong> based on customers’ needs, global guidelines and trends.",
-            "image": "/images/box-image/box-image-06-330x330.jpg"
+            "heading": "24h Hours Availability",
+            "desc": "When your dispatchers go home, we have after hours staff that can help you out and keep your dispatchers in the loop.",
+            "image": "7.jpg"
         },
 
         {

@@ -18,7 +18,7 @@
                       </div>
                       <div class="author-info">
                         <div class="testimonial-slider__media">
-                          <img :src="testimonial.thumb" class="img-fluid" alt="author thumbnail">
+                          <img :src="loadImg(testimonial.thumb)" class="img-fluid" alt="author thumbnail">
                         </div>
                         <div class="testimonial-slider__author">
                           <h6 class="name">
@@ -43,6 +43,8 @@
 <script>
 import data from '../../data/testimonial.json'
 import SectionTitle from '@/components/SectionTitle'
+
+const images = require.context('@/assets/img/', false, /\.jpeg$|\.jpg$/)
 
 export default {
   components: {
@@ -76,6 +78,18 @@ export default {
         }
       }
     }
+  },
+  methods: {
+    loadImg (imgPath) {
+      return images('./' + imgPath)
+    }
   }
 }
 </script>
+<style lang="scss" scoped>
+.img-fluid {
+  height: 50px;
+  width: 50px;
+  background: cover;
+}
+</style>

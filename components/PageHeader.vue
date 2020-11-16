@@ -5,10 +5,10 @@
         <div class="col-lg-8 ml-auto mr-auto">
           <div class="about-banner-content text-center">
             <h1 class="mb-15 text-white">
-              About Prime Express, INC
+              About Prime Express, inc
             </h1>
             <h5 class="font-weight--normal text-white">
-              Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.
+              Prime Express, inc is leading transportation company.  We are providing the best customer service possible, available 24/7, 365 days a year, at best rates possible.
             </h5>
           </div>
         </div>

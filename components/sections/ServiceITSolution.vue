@@ -14,9 +14,9 @@
             </div>
           </div>
           <div class="section-under-heading text-center section-space--mt_40">
-            Challenges are just opportunities in disguise.
-            <n-link to="/">
-              Take the challenge!
+            The perfect trucking job
+            <n-link to="/contact">
+              is waiting for you!
             </n-link>
           </div>
         </div>

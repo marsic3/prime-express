@@ -24,10 +24,10 @@
                           </div>
                           <div class="info-content">
                             <h6 class="info-title">
-                              0122 8899900
+                              773 741 1660
                             </h6>
                             <div class="info-sub-title">
-                              Info@example.com
+                              prime@primexp.net
                             </div>
                           </div>
                         </div>
@@ -39,10 +39,10 @@
                           </div>
                           <div class="info-content">
                             <h6 class="info-title">
-                              219 Amara Fort Apt. 394
+                              1718 Sherman Ave #307
                             </h6>
                             <div class="info-sub-title">
-                              New York, NY 941
+                              Evanston, IL 60201
                             </div>
                           </div>
                         </div>
@@ -72,7 +72,7 @@
                               Online 24/7
                             </h6>
                             <div class="info-sub-title">
-                              +122 123 4567
+                              773 706 5779
                             </div>
                           </div>
                         </div>
@@ -87,7 +87,7 @@
                     <a class="social-link hint--black hint--bottom-left" aria-label="Facebook" href="https://facebook.com" data-hover="Facebook" target="_blank">
                       <i class="social-icon fab fa-facebook-f" />
                     </a>
-                    <a class="social-link hint--black hint--bottom-left" aria-label="Instagram" href="https://instagram.com" data-hover="Instagram" target="_blank">
+                    <a class="social-link hint--black hint--bottom-left" aria-label="Instagram" href="https://instagram.com/primexpress_inc" data-hover="Instagram" target="_blank">
                       <i class="social-icon fab fa-instagram" />
                     </a>
                     <a class="social-link hint--black hint--bottom-left" aria-label="Linkedin" href="https://linkedin.com" data-hover="Linkedin" target="_blank">

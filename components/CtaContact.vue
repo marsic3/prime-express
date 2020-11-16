@@ -5,11 +5,11 @@
         <div class="col-lg-6 col-lg-6">
           <div class="conact-us-wrap-one">
             <h3 class="heading">
-              Obtaining further information by <span class="text-color-primary">make a contact</span> with our experienced IT staffs.
+              For more information make a contact with our experienced team. <span class="text-color-primary"> Make a contact</span>
             </h3>
 
             <div class="sub-heading">
-              We’re available for 8 hours a day!<br>Contact to require a detailed analysis and assessment of your plan.
+              We are available 24\7! You will be assigned to a specific dispatcher who will keep you on the move in a way that suits you the most.
             </div>
           </div>
         </div>

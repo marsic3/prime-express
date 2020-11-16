@@ -32,8 +32,8 @@
             </div>
             <div class="col-lg-7 offset-lg-1">
               <div class="conact-us-wrap-one managed-it">
-                <h5 class="heading ">
-                  Prime Express, INC specializes in <span class="text-color-primary"> technological and IT-related services</span> such as product engineering, warranty management, building cloud, infrastructure, network, etc.
+                <h5 class="heading">
+                  Prime Express, INC is leading transportation company.  We are providing the best customer service possible, available 24/7, 365 days a year, at best rates possible.
                 </h5>
 
                 <div class="sub-heading">

@@ -12,7 +12,7 @@
             </p>
             <div class="sider-title-button-box mt-30">
               <n-link to="/leadership" class="ht-btn ht-btn-md">
-                Join us now
+                Learn more 
               </n-link>
               <n-link to="/leadership" class="btn-text font-weight--bold small-mt__20">
                 View all team

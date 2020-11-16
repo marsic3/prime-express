@@ -36,7 +36,7 @@
             <div class="col-lg-5 offset-lg-1">
               <div class="cybersecurity-about-text">
                 <div class="text">
-                  Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
+                  Our main goal is to establish long term relationships with our clients and we are achieving it by providing the best services in transportation, including long haul and dedicated freight. Whether you are interested in driving solo or as a team, OTR or dedicated regional route, independent contractor - we have open positions for you!
                 </div>
                 <div class="button-text">
                   <n-link to="/" class="btn-text">
@@ -131,9 +131,9 @@
               </div>
             </div>
             <div class="section-under-heading text-center section-space--mt_20">
-              Challenges are just opportunities in disguise
+              The perfect trucking job
               <n-link to="/">
-                Take the challenge!
+                is waiting for you!
               </n-link>
             </div>
           </div>

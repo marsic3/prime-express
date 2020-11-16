@@ -8,7 +8,7 @@
               Services
             </h1>
             <h5 class="font-weight--normal text-white">
-              Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.
+              Our main goal is to establish long term relationships with our clients and we are achieving it by providing the best services in transportation, including long haul and dedicated freight. Whether you are interested in driving solo or as a team, OTR or dedicated regional route, independent contractor - we have open positions for you!
             </h5>
           </div>
         </div>

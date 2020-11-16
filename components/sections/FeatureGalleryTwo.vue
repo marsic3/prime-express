@@ -12,9 +12,9 @@
           </div>
 
           <div class="section-under-heading text-center section-space--mt_80">
-            Challenges are just opportunities in disguise.
+            The perfect trucking job
             <n-link to="/">
-              Take the challenge!
+              is waiting for you!
             </n-link>
           </div>
         </div>

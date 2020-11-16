@@ -1,77 +1,65 @@
 {
     "footerAboutData": {
         "logo": "/images/logo/dark-logo-160x48.png",
-        "address": "58 Howard Street #2 San Francisco, CA 941",
-        "telephone": "(+68)1221 09876",
-        "email": "contact@mitech.com",
-        "web": "www.mitech.xperts.com"
+        "address": "1718 Sherman Ave #307 Evanston, IL 60201",
+        "telephone": "773 741 1660",
+        "email": "prime@primexp.net",
+        "web": "www.primexp.net"
     },
-    "footerWidgetTitleOne": "IT Services",
+    "footerWidgetTitleOne": "Services",
     "navListOne": [
         {
-            "navTitle": "Managed IT",
-            "navUrl": "/" 
+            "navTitle": "Transport Refrigeration",
+            "navUrl": "/services" 
         },
         {
-            "navTitle": "IT Support",
-            "navUrl": "/" 
+            "navTitle": "Regional & OTR",
+            "navUrl": "/services" 
         },
         {
-            "navTitle": "IT Consultancy",
-            "navUrl": "/" 
+            "navTitle": "Team & Solo",
+            "navUrl": "/services" 
         },
         {
-            "navTitle": "Cloud Computing",
-            "navUrl": "/" 
+            "navTitle": "Flexibility",
+            "navUrl": "/services" 
         },
         {
-            "navTitle": "Cyber Security",
-            "navUrl": "/" 
+            "navTitle": "Experienced Safety Team",
+            "navUrl": "/services" 
+        },
+        {
+            "navTitle": "24h Hours Availability",
+            "navUrl": "/services" 
         }
     ],
     "footerWidgetTitleTwo": "Quick Links",
     "navListTwo": [
         {
-            "navTitle": "Pick up locations",
+            "navTitle": "Home",
             "navUrl": "/" 
         },
         {
-            "navTitle": "Terms of Payment",
-            "navUrl": "/" 
+            "navTitle": "Services",
+            "navUrl": "/services" 
         },
         {
-            "navTitle": "Privacy Policy",
-            "navUrl": "/" 
+            "navTitle": "Company",
+            "navUrl": "/about" 
         },
         {
-            "navTitle": "Where to Find Us",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Cyber Security",
-            "navUrl": "/" 
+            "navTitle": "Contact",
+            "navUrl": "/contact" 
         }
     ],
-    "footerWidgetTitleThree": "Support",
+    "footerWidgetTitleThree": "Contact",
     "navListThree": [
         {
-            "navTitle": "Forum Support",
+            "navTitle": "773 741 1660",
             "navUrl": "/" 
         },
         {
-            "navTitle": "Help & FAQ",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Contact Us",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Pricing and plans",
-            "navUrl": "/" 
-        },
-        {
-            "navTitle": "Cookies Policy",
+            "navTitle": "prime@primexp.net",
             "navUrl": "/" 
         }
     ],
@@ -86,7 +74,7 @@
         "copyright": "© 2020 Prime Express, INC. All Rights Reserved.",
         "fbUrl": "https://www.facebook.com",
         "twitterUrl": "https://twitter.com",
-        "instagramUrl": "https://www.instagram.com",
+        "instagramUrl": "https://www.instagram.com/primexpress_inc",
         "linkedinUrl": "https://www.linkedin.com"
     }
 }

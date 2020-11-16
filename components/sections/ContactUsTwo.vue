@@ -16,7 +16,7 @@
                 <span class="fa fa-star" />
               </div>
               <p class="sub-text">
-                by 700+ customers for 3200+ clients
+                by 300+ happy clients
               </p>
             </div>
 
@@ -28,21 +28,22 @@
                       <span class="fal fa-phone" />
                     </div>
                     <div class="main-content">
-                      <h6 class="heading">Call for advice now!</h6>
-                      <div class="text">1900 68668</div>
+                      <h6 class="heading">Contact us now!</h6>
+                      <div class="text">773 741 1660</div>
+                      <div class="text">773 706 5779</div>
                     </div>
                   </div>
                 </div>
               </a>
-              <a href="mailto:hello@mitech.com" class="single-contact-list">
+              <a href="mailto:prime@primexp.net" class="single-contact-list">
                 <div class="content-wrap">
                   <div class="content">
                     <div class="icon">
                       <span class="fal fa-envelope" />
                     </div>
                     <div class="main-content">
-                      <h6 class="heading">Say hello</h6>
-                      <div class="text">hello@mitech.com</div>
+                      <h6 class="heading">Ask us anything</h6>
+                      <div class="text">prime@primexp.net</div>
                     </div>
                   </div>
                 </div>
@@ -84,23 +85,12 @@
                   <div class="contact-inner">
                     <input v-model="companies" name="con_comapnies" type="text" placeholder="Previous companies">
                   </div>
-                  <!-- <div class="form-item contact-inner">
-                    <span class="inquiry">
-                      <select name="inquiry" class="select-item">
-                        <option value="Your inquiry about">Your inquiry about</option>
-                        <option value="General Information Request">General Information Request</option>
-                        <option value="Partner Relations">Partner Relations</option>
-                        <option value="Careers">Careers</option>
-                        <option value="Software Licencing">Software Licencing</option>
-                      </select>
-                    </span>
-                  </div> -->
                 </div>
                 <div class="contact-inner contact-message">
                   <textarea v-model="record" name="con_record" placeholder="Driving record" />
                 </div>
                 <div class="submit-btn text-center">
-                  <button class="ht-btn ht-btn-md" @click="send">
+                  <button class="ht-btn ht-btn-md" @click="submit">
                     Submit
                   </button>
                   <p class="form-messege" />
@@ -148,7 +138,7 @@ export default {
   mounted () {
   },
   methods: {
-    send () {
+    submit () {
       const applicant = {
         date: new Date(),
         name: this.name,
@@ -159,8 +149,9 @@ export default {
         record: this.record,
         companies: this.companies
       }
+      console.log(fireDb)
 
-      fireDb.collection('applications').add(applicant)
+      fireDb.ref('/applicants/' + applicant.date.getTime()).set(applicant)
         .then((docRef) => {
           this.toggle = true
         })

@@ -1,5 +1,5 @@
 import firebase from 'firebase/app'
-import 'firebase/firestore'
+import 'firebase/database'
 
 if (!firebase.apps.length) {
   const config = {
@@ -13,14 +13,6 @@ if (!firebase.apps.length) {
     measurementId: 'G-802HQ06504'
   }
   firebase.initializeApp(config)
-  firebase.firestore().settings(
-    {
-      timestampsInSnapshots: true,
-      services: {
-        auth: false // Just as example. Can be any other service.
-      }
-    }
-  )
 }
-const fireDb = firebase.firestore()
+const fireDb = firebase.database()
 export { fireDb }

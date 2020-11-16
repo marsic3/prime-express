@@ -1,6 +1,6 @@
 {
     "sectionTitle": "Our <span>experience </span> experts",
-    "sectionSubTitle": "Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.",
+    "sectionSubTitle": "Our main goal is to establish long term relationships with our clients and we are achieving it by providing the best services in transportation, including long haul and dedicated freight. Whether you are interested in driving solo or as a team, OTR or dedicated regional route, independent contractor - we have open positions for you!",
     "leadershipHeading": "We pride ourselves on having a team <br> of <span>highly-skilled</span> experts",
     "teamMembers": [
         {
@@ -10,34 +10,34 @@
             "designation": "Marketing",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 2,
             "image": "/images/team/team-member-07-370x250.jpg",
-            "name": "Stephen Mearsley",
+            "name": "Jeff Palmer",
             "designation": "President & CEO",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 3,
             "image": "/images/team/team-member-04-370x250.jpg",
-            "name": "Maggie Strickland",
+            "name": "Bill Clark",
             "designation": "Financial Services",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 4,
             "image": "/images/team/team-member-02-370x250.jpg",
-            "name": "Monica Blews",
-            "designation": "Project manager",
+            "name": "Tommy Stark",
+            "designation": "Customer",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 5,
@@ -46,61 +46,61 @@
             "designation": "Marketing",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 6,
             "image": "/images/team/team-member-01-370x455.jpg",
-            "name": "Stephen Mearsley",
+            "name": "Jeff Palmer",
             "designation": "President & CEO",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 7,
             "image": "/images/team/team-member-06-370x455.jpg",
-            "name": "Maggie Strickland",
+            "name": "Bill Clark",
             "designation": "Financial Services",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 8,
             "image": "/images/team/team-member-04-370x452.jpg",
-            "name": "Monica Blews",
-            "designation": "Project manager",
+            "name": "Tommy Stark",
+            "designation": "Customer",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 9,
             "image": "/images/team/team-member-05-370x452.jpg",
-            "name": "Monica Blews",
-            "designation": "Project manager",
+            "name": "Tommy Stark",
+            "designation": "Customer",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 10,
             "image": "/images/team/team-member-03-370x452.jpg",
-            "name": "Monica Blews",
-            "designation": "Project manager",
+            "name": "Tommy Stark",
+            "designation": "Customer",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         },
         {
             "id": 11,
             "image": "/images/team/team-member-02-370x452.jpg",
-            "name": "Monica Blews",
-            "designation": "Project manager",
+            "name": "Tommy Stark",
+            "designation": "Customer",
             "fbUrl": "https://www.facebook.com",
             "twitterUrl": "https://twitter.com",
-            "instagramUrl": "https://www.instagram.com"
+            "instagramUrl": "https://www.instagram.com/primexpress_inc"
         }
     ],
     "teamMemberWidget": [

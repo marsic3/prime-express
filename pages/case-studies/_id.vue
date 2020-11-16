@@ -40,7 +40,7 @@
 
                 <div class="author section-space--mt_60">
                   <h6 class="font-weight--reguler mb-1">
-                    Maggie Strickland
+                    Bill Clark
                   </h6>
                   <p>/ Group Chief Information – Aqua Group</p>
                 </div>

@@ -21,9 +21,6 @@
               <h2 class="heading mr-5">
                 <span class="mark-text">{{ data.aboutCompanyTwo.headingMarkText }}</span>{{ data.aboutCompanyTwo.heading }}
               </h2>
-              <h6 class="heading mt-30">
-                {{ data.aboutCompanyTwo.subHeading }}
-              </h6>
             </div>
           </div>
 
@@ -34,7 +31,7 @@
               </div>
               <div class="button-text">
                 <n-link to="/contact" class="btn-text">
-                  Join us
+                  Apply now
                   <span class="button-icon ml-1">
                     <i class="far fa-long-arrow-right" />
                   </span>

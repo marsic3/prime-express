@@ -4,31 +4,31 @@
     "testimonials": [
         {
             "subject": "The Prime Express, INC team works really hard to ensure high level of quality",
-            "desc": "There are thousands of IT service companies in the US. But there’s nothing like @Prime Express, INC. Their popularity and reputation are just evident.",
-            "thumb": "/images/testimonial/testimonial-01-70x70.jpg",
-            "name": "Maggie Strickland",
-            "designation": "Web Developer"
+            "desc": "There are thousands of transportation companies in the US. But there's nothing like Prime Express, their popularity and reputation are just evident. ",
+            "thumb": "face1.jpg",
+            "name": "Bill Clark",
+            "designation": "Customer"
         },
         {
             "subject": "The Prime Express, INC team works really hard to ensure high level of quality",
-            "desc": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Prime Express, INC is one of the most impressive to me.",
-            "thumb": "/images/testimonial/testimonial-02-70x70.jpg",
-            "name": "Robert Amplilian",
+            "desc": "When we're facing short lead times, this company is first to call!",
+            "thumb": "12.jpeg",
+            "name": "Amanda Higgins",
             "designation": "Marketing"
         },
         {
             "subject": "The Prime Express, INC team works really hard to ensure high level of quality",
-            "desc": "There are thousands of IT service companies in the US. But there’s nothing like @Prime Express, INC. Their popularity and reputation are just evident.",
-            "thumb": "/images/testimonial/testimonial-03-70x70.jpg",
-            "name": "Stephen Mearsley",
-            "designation": "PR Officer"
+            "desc": "Whether it's a drop or a pick-up they've proven to be a strategic solutions-oriented partner capable of pulling off a bunch of diffrent truckload services.",
+            "thumb": "face3.jpg",
+            "name": "Jeff Palmer",
+            "designation": "Customer"
         },
         {
             "subject": "The Prime Express, INC team works really hard to ensure high level of quality",
-            "desc": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Prime Express, INC is one of the most impressive to me.",
-            "thumb": "/images/testimonial/testimonial-04-70x70.jpg",
-            "name": "Monica Blews",
-            "designation": "PR Officer"
+            "desc": " I've been working with over 15 trucking companies but Prime Express is one of the most impressive to me.",
+            "thumb": "face6.jpg",
+            "name": "Tommy Stark",
+            "designation": "Customer"
         }
     ]
 }

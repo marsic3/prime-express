@@ -8,7 +8,7 @@
               discover our company
             </h6>
             <h3 class="section-title">
-              We’ve been thriving in<span class="text-color-primary"> 38 years</span>
+              Specializing in transportation of freight in all<span class="text-color-primary"> 48 states</span>
             </h3>
           </div>
         </div>

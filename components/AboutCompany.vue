@@ -11,7 +11,7 @@
     </p>
     <div class="sider-title-button-box mt-30">
       <n-link class="ht-btn ht-btn-md" to="/about">
-        Join us now
+        Learn more 
       </n-link>
     </div>
   </div>

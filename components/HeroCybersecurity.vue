@@ -4,13 +4,12 @@
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-7">
           <div class="cybersecurity-hero-text wow move-up">
-            <h6>figure plans out</h6>
             <h3 class="font-weight--reguler mb-30">
-              Get insights into the <span class="text-color-primary">mechanism</span> & <span class="text-color-primary">prospects</span> of cyber security technology
+              Welcome to <span class="text-color-primary">Prime Express, inc</span> leading transportation company!
             </h3>
             <div class="hero-button mt-30">
-              <n-link to="/" class="ht-btn ht-btn-md">
-                Dig deeper now
+              <n-link to="/contact" class="ht-btn ht-btn-md">
+                Apply now
               </n-link>
             </div>
           </div>

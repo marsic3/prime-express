@@ -1,18 +1,18 @@
 {
     "aboutCompany": {
-        "sectionTitle": "We’ve been thriving in <span>38 years</span>",
+        "sectionTitle": "Specializing in transportation of freight in all <span>48 states</span>",
         "sectionSubTitle": "Our company",
-        "desc": "Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it."
+        "desc": "Our main goal is to establish long term relationships with our clients and we are achieving it by providing the best services in transportation, including long haul and dedicated freight. Whether you are interested in driving solo or as a team, OTR or dedicated regional route, independent contractor - we have open positions for you!"
     },
     "aboutCompanyTwo": {
-        "sectionTitle": "We run all kinds of IT services that <br> vow your <span> success</span>",
-        "sectionSubTitle": "Our company",
-        "heading": "Years’ Experience in IT",
-        "headingMarkText": "38",
+        "sectionTitle": "A secure job, new truck, <br/> and good pay are guaranteed!",
+        "sectionSubTitle": "WE ARE HIRING",
+        "heading": "States covered",
+        "headingMarkText": "48",
         "subHeading": "More About Our Success Stories",
-        "desc": "Prime Express, INC specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.",
-        "underHeading": "Challenges are just opportunities in disguise.",
-        "linkText": "Take the challenge!"
+        "desc": "At Prime Express, INC our mission is to attract and retain customers by providing the best in class transportation solutions, including long haul and dedicated freight. Drivers are our most valuable assets. Apply for a job now, it only takes minutes.",
+        "underHeading": "The perfect trucking job",
+        "linkText": "is waiting for you!"
     },
     "aboutItems": [
         {
@@ -78,15 +78,15 @@
     "items": [
         {
             "no": "01",
-            "title": "How we can help your business?"
+            "title": "Searching for a new company?"
         },
         {
             "no": "02",
-            "title": "Why become our partner?"
+            "title": "How we can help your career?"
         },
         {
             "no": "03",
-            "title": "What are the best of Prime Express, INC?"
+            "title": "What are our advantages?"
         }
     ]
 }

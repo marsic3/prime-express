@@ -8,7 +8,7 @@
             <div class="section-under-heading text-center mt-30">
               {{ data.ctaTwo.subTitle }}
               <n-link to="/about">
-                Take the challenge!
+                is waiting for you!
               </n-link>
             </div>
           </div>

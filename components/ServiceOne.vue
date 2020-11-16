@@ -25,7 +25,7 @@
           <div class="section-under-heading text-center section-space--mt_60 section-space--pt_30">
             {{ data.serviceOne.underHeading }}
             <n-link to="/">
-              Take the challenge!
+              is waiting for you!
             </n-link>
           </div>
         </div>
