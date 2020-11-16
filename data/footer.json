@@ -2,7 +2,8 @@
     "footerAboutData": {
         "logo": "/images/logo/dark-logo-160x48.png",
         "address": "1718 Sherman Ave #307 Evanston, IL 60201",
-        "telephone": "773 741 1660",
+        "telephone1": "773 741 1660",
+        "telephone2": "773 706 5779",
         "email": "prime@primexp.net",
         "web": "www.primexp.net"
     },

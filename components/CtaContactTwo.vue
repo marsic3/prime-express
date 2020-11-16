@@ -21,7 +21,7 @@
               Reach out now!
             </h6>
             <h2 class="call-us">
-              <a href="tel:190068668">1900 68668</a>
+              <a href="tel:7737411660">773 741 1660</a>
             </h2>
             <div class="contact-us-button mt-20">
               <n-link to="/contact" class="btn btn--secondary">

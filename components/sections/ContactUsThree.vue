@@ -34,7 +34,7 @@
                     </div>
                     <div class="main-content">
                       <h6 class="heading">Call for advice now!</h6>
-                      <div class="text">1900 68668</div>
+                      <div class="text">773 741 1660</div>
                     </div>
                   </div>
                 </div>

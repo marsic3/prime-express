@@ -11,7 +11,8 @@
         <a href="mailto:contact@mitech.com" class="hover-style-link">{{ footerAbout.email }}</a>
       </li>
       <li>
-        <a href="tel:123344556" class="hover-style-link text-black font-weight--bold">{{ footerAbout.telephone }}</a>
+        <a href="tel:7737411660" class="hover-style-link text-black font-weight--bold">{{ footerAbout.telephone1 }}</a> <br>
+        <a href="tel:7737065779" class="hover-style-link text-black font-weight--bold">{{ footerAbout.telephone2 }}</a>
       </li>
     </ul>
   </div>
